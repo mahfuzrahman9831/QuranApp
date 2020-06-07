@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ayatul_kursi_page"></activity>
+        <activity android:name=".janana_namajer_doaId" />
+        <activity android:name=".sura_lail" />
+        <activity android:name=".sura_duha" />
+        <activity android:name=".sura_inshirah" />
+        <activity android:name=".sura_tin" />
+        <activity android:name=".sura_alak" />
+        <activity android:name=".sura_kador" />
+        <activity android:name=".sura_baiyinah" />
+        <activity android:name=".sura_zilzal" />
+        <activity android:name=".sura_adiyat" />
+        <activity android:name=".sura_kariyah" />
+        <activity android:name=".sura_takasur" />
+        <activity android:name=".sura_asor" />
+        <activity android:name=".sura_humajhah" />
+        <activity android:name=".sura_fil" />
+        <activity android:name=".sura_kuraish" />
+        <activity android:name=".sura_maun" />
+        <activity android:name=".sura_kausar" />
+        <activity android:name=".sura_kafirun" />
+        <activity android:name=".sura_nasor" />
+        <activity android:name=".sura_lahab" />
+        <activity android:name=".sura_ikhlach" />
+        <activity android:name=".sura_falak" />
+        <activity android:name=".sura_nas" />
+        <activity android:name=".sura_Fatiha" />
+        <activity android:name=".Daily_Doa" />
+        <activity android:name=".Amol_Page" />
+        <activity android:name=".Hadis_Page" />
+        <activity android:name=".Quran_Page" />
+        <activity android:name=".all_doa_page" />
+        <activity android:name=".Namajer_Doa" />
+        <activity android:name=".Doa_Kunut" />
+        <activity android:name=".Janbahoner_Doa" />
+        <activity android:name=".Doa_Masura" />
+        <activity android:name=".Durud_Shorif" />
+        <activity android:name=".Tashahud" />
+        <activity android:name=".Rog_mukti" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

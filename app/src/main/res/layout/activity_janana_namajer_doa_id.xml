@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1D9D9"
+    tools:context=".janana_namajer_doaId">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="#F1D9D9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/aaa"
+            android:layout_marginBottom="30dp"
+            />
+
+        <LinearLayout
+            android:background="#D0F7F8F8"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নিয়্যাত :"
+                />
+
+            <TextView
+                android:textSize="27sp"
+                android:fontFamily="@font/amiri_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_niyet"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_niyet_uccaron"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_niyet_ortho"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_nb"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="#D0F7F8F8"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সানা :"
+                />
+
+            <TextView
+                android:textSize="27sp"
+                android:fontFamily="@font/amiri_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_sana"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_sana_uccaron"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_sana_ortho"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="#D0F7F8F8"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="দুরুদ শরীফ :"
+                />
+
+            <TextView
+                android:textSize="27sp"
+                android:fontFamily="@font/amiri_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/durud_shorif"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/durud_shorif_uccaron"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/durud_shorif_ortho"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="#D0F7F8F8"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বালেগ পুরুষ এবং নারীর জন্য দোয়া :"
+                />
+
+            <TextView
+                android:textSize="27sp"
+                android:fontFamily="@font/amiri_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_namaz"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_namaz_uccaron"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_namaz_ortho"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="#D0F7F8F8"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নাবালক ছেলের জন্য দোয়া :"
+                />
+
+            <TextView
+                android:textSize="27sp"
+                android:fontFamily="@font/amiri_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_cele"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_cele_uccaron"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_cele_ortho"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="#D0F7F8F8"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নাবালিকা মেয়ের জন্য দোয়া :"
+                />
+
+            <TextView
+                android:textSize="27sp"
+                android:fontFamily="@font/amiri_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_meye"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_meye_uccaron"
+                />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janaja_meye_ortho"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

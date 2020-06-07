@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daily_Doa">
+
+    <LinearLayout
+        android:background="#6300BCD4"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/aaa"
+            android:layout_marginBottom="50dp"
+            />
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ঘুমানোর পূর্বের দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ghumanor_purbe"
+                />
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ghumanor_purbe_uccaron"
+                />
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ghumanor_purbe_ortho"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ঘুম থেকে উঠে পড়িবার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ghum_theke_uthe" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ghum_theke_uthe_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ghum_theke_uthe_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="টয়লেটে প্রবেশের দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet_purbe" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet_purbe_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet_purbe_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="টয়লেট থেকে বের হয়ে পড়িবার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet_pore" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet_pore_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet_pore_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মসজিদে প্রবেশের দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mosjid_probesh" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mosjid_probesh_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mosjid_probesh_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মসজিদ থেকে বের হওয়ার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mosjid_prosthan" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mosjid_prosthan_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mosjid_prosthan_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="খাবার সামনে আসলে পড়িবার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khabar_samner_doa" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khabar_samner_doa_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khabar_samner_doa_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="খাওয়ার শুরুতে পড়িবার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khabar_surur_doa" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khabar_surur_doa_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khabar_surur_doa_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="খাওয়ার শুরুতে বিসমিল্লাহ্‌ বলতে ভুলে গেলে পড়িবার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bismillah_vuler_doa" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bismillah_vuler_doa_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bismillah_vuler_doa_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="খাওয়ার শেষে পড়িবার দোয়াঃ"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/al_qalam_regular"
+                android:textSize="26sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khawar_seser_doa" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khawar_seser_doa_uccaron" />
+
+            <TextView
+                android:padding="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/khawar_seser_doa_ortho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rog_mukti_uccaron"
+                />
+
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rog_mukti_ortho"
+                />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#F1D9D9"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janbahoner_doa_uccaron"
+                />
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janbahoner_doa_ortho"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

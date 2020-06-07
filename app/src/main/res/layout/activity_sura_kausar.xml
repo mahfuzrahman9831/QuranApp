@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    android:background="#6300BCD4"
+    android:orientation="vertical"
+    tools:context=".sura_kausar">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_kausar_title"
+                />
+
+            <TextView
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_kausar"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_kausar_1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_kausar_2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:background="#D0F7F8F8"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_kausar_3"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+

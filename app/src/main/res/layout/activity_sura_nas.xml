@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sura_nas">
+
+    <LinearLayout
+        android:background="#6300BCD4"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kalpurush"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_title"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ayat_1"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ortho_1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ayat_2"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ortho_2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ayat_3"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ortho_3"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৪"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ayat_4"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ortho_4"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৫"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ayat_5"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ortho_5"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="2dp"
+            android:background="#D0F7F8F8"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৬"
+                android:textColor="#FF9800"
+                />
+
+            <TextView
+                android:fontFamily="@font/amiri_bold"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ayat_6"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sura_nas_ortho_6"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

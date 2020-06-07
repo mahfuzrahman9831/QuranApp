@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Amol_Page">
+
+    <ScrollView
+        android:layout_above="@id/laybottomId3"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="27dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:background="#F1D9D9"
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quran_page_header1"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/scheherazaderegot"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quran_page_header2"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginBottom="15dp"
+                />
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/angry_btn"
+                    android:text="আয়াতুল কুরসী"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/new_gradiant"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    />
+                <Button
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/angry_btn_new"
+                    android:text="Button"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/new_gradiant"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    />
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_marginTop="25dp"
+                android:id="@+id/angry_btn2"
+                android:text="Button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/gradient2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+            <Button
+                android:layout_marginTop="25dp"
+                android:id="@+id/angry_btn3"
+                android:text="Button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/gradient2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+            <Button
+                android:layout_marginTop="25dp"
+                android:id="@+id/angry_btn4"
+                android:text="Button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/gradient2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+            <Button
+                android:layout_marginTop="25dp"
+                android:id="@+id/angry_btn5"
+                android:text="Button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/gradient2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+            <Button
+                android:layout_marginTop="25dp"
+                android:id="@+id/angry_btn6"
+                android:text="Button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/gradient2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+            <Button
+                android:layout_marginTop="25dp"
+                android:id="@+id/angry_btn7"
+                android:text="Button"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/gradient2"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/laybottomId3"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#140FA8"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/imageViewId_1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book_icon"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewId_2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/doa_icon" />
+
+        <ImageView
+            android:id="@+id/imageViewId_3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hadis_icon"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewId_4"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/amol_icon"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
