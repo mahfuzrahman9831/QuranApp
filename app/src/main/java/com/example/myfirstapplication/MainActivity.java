@@ -246,8 +246,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onBackPressed() {
 
 
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
 
         builder.setMessage(R.string.AlertDialog_Message)
@@ -256,7 +255,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-               MainActivity.super.onBackPressed();
+               finish();
             }
         });
 
@@ -269,6 +268,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
+
+
 
     }
 }
