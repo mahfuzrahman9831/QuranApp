@@ -245,27 +245,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
 
-        AlertDialog.Builder alertDialogBuilder;
-        alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
 
-        alertDialogBuilder.setMessage(R.string.AlertDialog_Message);
-        alertDialogBuilder.setCancelable(false);
 
-        alertDialogBuilder.setPositiveButton("হ্যাঁ", new DialogInterface.OnClickListener() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+
+        builder.setMessage(R.string.AlertDialog_Message)
+                .setCancelable(false);
+
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                finish();
+               MainActivity.super.onBackPressed();
             }
         });
 
-        alertDialogBuilder.setNegativeButton("না", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("না", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.cancel();
             }
         });
 
-                AlertDialog alertDialog = alertDialogBuilder.create();
+                AlertDialog alertDialog = builder.create();
                 alertDialog.show();
 
     }
